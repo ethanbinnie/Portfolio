@@ -11,7 +11,7 @@ function Aboutme() {
         <h1 className="text-2xl">
           Hi,
           <br></br>
-          I'm Ethan,
+          I&apos;m Ethan,
         </h1>
         <p className="text-sm mt-8 tracking-wider">
           I am a Front End Developer living in Auckland, New Zealand. I love

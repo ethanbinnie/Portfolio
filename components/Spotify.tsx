@@ -27,7 +27,7 @@ function Spotify({
           <button
             onClick={() => handleContentChange(content.title)}
             className="hidden xl:flex absolute text-lg text-white mt-[72.5px] py-2 px-5 rounded-3xl
-   bg-blue-400 border-2 border-white hover:bg-blue-500"
+   bg-blue-400 border-2 border-white transition-all hover:bg-blue-500"
           >
             Spotify
           </button>

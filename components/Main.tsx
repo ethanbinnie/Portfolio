@@ -52,7 +52,7 @@ const allContent: { [key: string]: Content } = {
   Spotify: {
     title: "Spotify",
     techStack: ["Html", "Css", "React"],
-    description: "This project aimed to replicate the visual design and layout of Spotify, focusing on creating a frontend interface that closely resembles the original application. This endeavor will provide hands-on experience in mimicking real-world applications' user interfaces, enhancing my ability to create visually appealing web designs.",
+    description: "This project aimed to replicate the visual design and layout of Spotify, focusing on creating a frontend interface that closely resembles the original application. This endeavour will provide hands-on experience in mimicking real-world applications' user interfaces, enhancing my ability to create visually appealing web designs.",
     image: "spotifySS.png",
     date: "Sep 2023",
   },

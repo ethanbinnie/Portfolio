@@ -13,9 +13,10 @@ function Display({ content }: { content: Content | undefined }) {
               className="grid grid-cols-4 grid-rows-4 relative gap-x-2 w-[360px] h-[200px]
             items-center justify-center"
             >
-              {content?.techStack.map((tech) => {
+              {content?.techStack.map((tech, key) => {
                 return (
                   <h1
+                    key={key}
                     className="flex justify-center items-center text-sm font-bold col-span-1
                   rounded-xl px-2 mb-7 text-white bg-gradient-to-r from-red-400 to-yellow-500"
                   >
@@ -26,9 +27,11 @@ function Display({ content }: { content: Content | undefined }) {
               <p className="text-xs col-span-4 row-span-2 rounded-xl p-2 bg-white">
                 {content.description}
               </p>
-              <h1 className="flex justify-center items-center absolute inset-0 text-white
+              <h1
+                className="flex justify-center items-center absolute inset-0 text-white
               text-sm rounded-lg w-20 h-8 mt-[180px] ml-[310px] 
-              bg-gradient-to-r from-green-400 to-blue-500">
+              bg-gradient-to-r from-green-400 to-blue-500"
+              >
                 {content.date}
               </h1>
             </div>
